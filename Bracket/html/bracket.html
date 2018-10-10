@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="wp-admin/css/styles.css">
+
+<script src="../js/scripts.js"></script>
+<script src="wp-admin/js/scripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+<meta charset="UTF-8"> 
+</head>
+
+<html>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" onclick="createMatch(8, 3)">8</a>
+    <a class="dropdown-item" onclick="createMatch(16, 4)">16</a>
+    <a class="dropdown-item" onclick="createMatch(32, 5)">32</a>
+	<a class="dropdown-item" onclick="tester()">test</a>
+  </div>
+</div>
+<button onclick="refresh()">Refresh</button>
+
+</html>
